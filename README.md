@@ -2,6 +2,7 @@
 ## Visualizing the perimeter with true and false colors
 
 ![thomas fire image](images/2017_thomas_fire_2.jpeg)
+
 Image credit: [usatoday.com](https://www.usatoday.com/story/news/2017/12/26/californias-largest-recorded-wildfire-winding-down-firefighters-gain-upper-hand/982571001/)
 
 ## About
@@ -20,27 +21,33 @@ The intent of this project is to retreive geographic data of California fires, f
 
 
 
+## Data
+The data for this analysis is housed in this repository. The
 
-## **Data Reference List:**
+## References
 
 1. U.S. Geological Survey. (n.d.). *Landsat 8-9 OLI/TIRS collection 2 level-2 science products | USGS EROS Archive*. U.S. Geological Survey. https://www.usgs.gov/centers/eros/science/usgs-eros-archive-landsat-archives-landsat-8-9-olitirs-collection-2-level-2 Access date: November 19, 2024.
 
 2. Data.gov. (2024). *California fire perimeters (ALL)*. Data.gov. https://catalog.data.gov/dataset/california-fire-perimeters-all-b3436 Access date: November 19, 2024.
 
 
-```
- eds220-hwk4
-│   README.md
-|   hwk4-task2-fire-perimeter-CARROLL.ipynb
-│   hwk4-task2-false-color-CARROLL.ipynb
-|   .gitignore
-│
-└───data
-|   |   landsat8-2018-01-26-sb-simplified.nc
-|   |   thomas_fire
-|   |  |  thomas_fire.shp
-|       ca_fire_perimeter
-|   |  |  ca_fire_perimeter.shp
-└───images
-    |   
+## Repository Organization
+
  ```
+ eds220-hwk4-repo
+│
+├── README.md                     
+├── hwk4-task2-fire-perimeter-CARROLL.ipynb  # Jupyter notebook for data filtering
+├── hwk4-task2-false-color-CARROLL.ipynb # Jupyter nnotebook for data visualization                    
+├── .gitignore                    
+│
+├── images/                       
+│   ├── 2017_thomas_fire_2.jpeg  # Image for README
+│ 
+├── data/
+│   ├── landsat8-2018-01-26-sb-simplified.nc # Landsat data
+│   ├── thomas_fire
+│   │   ├── thomas_fire.shp # Thomas fire perimeter
+│   ├── ca_fire_perimeter
+│      ├── ca_fire_perimeter.shp # California fire data
+```
