@@ -1,5 +1,5 @@
 # The 2017 Thomas Fire
-## Visualizing the perimeter with true and false colors
+### Visualizing the scar with true and false colors
 
 ![thomas fire image](images/2017_thomas_fire_2.jpeg)
 
@@ -22,7 +22,7 @@ The intent of this project is to retreive geographic data of California fires, f
 
 
 ## Data
-The data for this analysis is housed in this repository. The
+The data for this analysis is not housed in this repository, except for the filtered 'thomas_fire' perimeter shapefile. The Landsat and California state fire data was downloaded and used locally from the sources listed below.
 
 ## References
 
@@ -46,8 +46,8 @@ The data for this analysis is housed in this repository. The
 │ 
 ├── data/
 │   ├── landsat8-2018-01-26-sb-simplified.nc # Landsat data
-│   ├── thomas_fire
+│   ├── thomas_fire/
 │   │   ├── thomas_fire.shp # Thomas fire perimeter
-│   ├── ca_fire_perimeter
+│   ├── ca_fire_perimeter/
 │      ├── ca_fire_perimeter.shp # California fire data
 ```
