@@ -1,6 +1,9 @@
 # The 2017 Thomas Fire
 ## Visualizing the perimeter with true and false colors
 
+![thomas fire image](images/2017_thomas_fire_2.jpeg)
+Image credit: [usatoday.com](https://www.usatoday.com/story/news/2017/12/26/californias-largest-recorded-wildfire-winding-down-firefighters-gain-upper-hand/982571001/)
+
 ## About
 This repository contains notebooks `hwk4-task2-fire-perimeter-CARROLL.ipynb` and `hwk4-task2-false-color-CARROLL.ipynb` which aim to analyze the impact of the 2017 Thomas Fire in Santa Barbara and Ventura Counties.
 
