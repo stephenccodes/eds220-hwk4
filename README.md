@@ -16,7 +16,7 @@ The intent of this project is to retreive geographic data of California fires, f
 - Geospatial data wrangling with `geopandas` and `rioxarray`
 - CRS conversions between tabular and xarray datasets
 - Saving the resulting subset to a local daat folder using `to_file()`
-- Using base `plot()` to visualize true color plpots of the fire
+- Using `plot()` to visualize true color plots of the fire
 - Creating and customizing a false color map using `matplotlib.pyplot`
 
 
