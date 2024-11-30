@@ -24,12 +24,13 @@ The intent of this project is to retreive geographic data of California fires, f
 ## Data
 The data for this analysis is not housed in this repository, except for the filtered 'thomas_fire' perimeter shapefile. The Landsat and California state fire data was downloaded and used locally from the sources listed below.
 
-## References
+## Acknowledgments & References
+
+All materials were created by [Carmen Galaz-Garcia](https://github.com/carmengg) for [EDS-220: Working with Environmental Data](https://meds-eds-220.github.io/MEDS-eds-220-course/).
 
 1. U.S. Geological Survey. (n.d.). *Landsat 8-9 OLI/TIRS collection 2 level-2 science products | USGS EROS Archive*. U.S. Geological Survey. https://www.usgs.gov/centers/eros/science/usgs-eros-archive-landsat-archives-landsat-8-9-olitirs-collection-2-level-2 Access date: November 19, 2024.
 
 2. Data.gov. (2024). *California fire perimeters (ALL)*. Data.gov. https://catalog.data.gov/dataset/california-fire-perimeters-all-b3436 Access date: November 19, 2024.
-
 
 ## Repository Organization
 
