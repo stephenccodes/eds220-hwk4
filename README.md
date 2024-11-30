@@ -49,8 +49,8 @@ All materials were created by [Carmen Galaz-Garcia](https://github.com/carmengg)
 │   ├── landsat8-2018-01-26-sb-simplified.nc # Landsat data
 │   ├── thomas_fire/
 │      ├── thomas_fire.shp # Thomas fire perimeter
-       ├── thomas_fire.cpg
-       ├── thomas_fire.dbf
-       ├── thomas_fire.prj
-       ├── thomas_fire.shx
-```
+        ├── thomas_fire.cpg
+        ├── thomas_fire.dbf
+        ├── thomas_fire.prj
+        ├── thomas_fire.shx
+``` 
