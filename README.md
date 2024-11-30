@@ -22,7 +22,7 @@ The intent of this project is to retreive geographic data of California fires, f
 
 
 ## Data
-The data for this analysis is not housed in this repository, except for the filtered 'thomas_fire' perimeter shapefile. The Landsat and California state fire data was downloaded and used locally from the sources listed below.
+The data for this analysis is housed in this repository, except for the unfiltered California fire perimeter shapefile. The Landsat and California state fire data was downloaded and used locally from the sources listed below.
 
 ## Acknowledgments & References
 
@@ -48,7 +48,9 @@ All materials were created by [Carmen Galaz-Garcia](https://github.com/carmengg)
 ├── data/
 │   ├── landsat8-2018-01-26-sb-simplified.nc # Landsat data
 │   ├── thomas_fire/
-│   │   ├── thomas_fire.shp # Thomas fire perimeter
-│   ├── ca_fire_perimeter/
-│      ├── ca_fire_perimeter.shp # California fire data
+│      ├── thomas_fire.shp # Thomas fire perimeter
+       ├── thomas_fire.cpg
+       ├── thomas_fire.dbf
+       ├── thomas_fire.prj
+       ├── thomas_fire.shx
 ```
