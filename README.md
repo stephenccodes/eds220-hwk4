@@ -39,7 +39,7 @@ All materials were created by [Carmen Galaz-Garcia](https://github.com/carmengg)
 │
 ├── README.md                     
 ├── hwk4-task2-fire-perimeter-CARROLL.ipynb  # Jupyter notebook for data filtering
-├── hwk4-task2-false-color-CARROLL.ipynb # Jupyter nnotebook for data visualization                    
+├── hwk4-task2-false-color-CARROLL.ipynb # Jupyter notebook for data visualization                    
 ├── .gitignore                    
 │
 ├── images/                       
